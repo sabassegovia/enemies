@@ -1,4 +1,4 @@
-document.addEventListener('load', function () { //switch to load if using images from api/3rd party
+document.addEventListener('DOMContentLoaded', function () { //switch to load if using images from api/3rd party
   const canvas = document.getElementById('canvas1');
   const ctx = canvas.getContext('2d');
   canvas.width = 500;
